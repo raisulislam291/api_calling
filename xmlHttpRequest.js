@@ -10,7 +10,7 @@ const makeRequest = (method, url, data) => {
      xhr.setRequestHeader("content-Type", "application/json");
      xhr.onload = () => {
        let data = xhr.response;
-       console.log(xhr.status);
+      //  console.log(xhr.status);
        console.log(JSON.parse(data));
      };
 
